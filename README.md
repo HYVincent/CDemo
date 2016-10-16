@@ -19,6 +19,7 @@
 
 ####函数调用
 例如有两个源文件，A.c和B.c，A.c里面有main函数，B.c里面有gerCirclePerimeter(float radius)函数，此函数为输入半径获取圆的周长，如果要在A.c里面调用B.c的getCirclePerimeter（float radius），须按照如下步骤：
-* 首先创建B.h文件，在我的理解中X.c和X.h文件，X.h就是X.c的使用说明书，在B.h文件中声明getCirclePerimeter(float radius)方法
+* 首先创建B.h文件，在我的理解中X.c和X.h文件，X.h就是X.c的使用说明书，在B.h文件中声明getCirclePerimeter(float radius)方法，然后在B.c中引入：#include "b.h"
 * 然后在A.c里面引入B.h：#include "b.h" 
-</br>好了现在就可以直接使用B.c源文件中定义的方法了
+
+</br>好了现在就可以直接调用B.c源文件中定义的方法了

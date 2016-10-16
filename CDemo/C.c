@@ -17,7 +17,24 @@ int main() {
 	//double 双精度浮点数 8字节 取值范围±1.7E±308（精确到15位小数）
 	//long double  12字节 取值范围±1.19E±4932（精确18位小数）
 
+	//读取数据的格式说明符
+	//读取short类型的数值：%hd
+	//读取int类型的数值：%d
+	//读取long类型的数值：%ld
+	//读取float类型的数值：%f或%e
+	//读取double类型的数值：%lf或%le
 
+	int i = 10000;
+	long r = 1000000L;//表示为long值
+	//控制输出的小数位数
+	double d = 1.215432134546165164;
+	printf("d=%f.\n", d);
+	printf("d=%.3f.\n", d);//限制输出小数点后面的位数  %.3f表示输出小数点后面3位
+
+	float zhouChang=getZhouChang(4.5);
+	printf("circle's ZhouChang = %f \n", zhouChang);
+	printf("circle's MianJi=%.3f\n", getCircleMianJi(55.6));
+	printf("\n");
 	init();
 	printf("This is a C project\n");
 	printf("\t1.\tA bird?\n");

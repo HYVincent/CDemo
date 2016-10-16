@@ -1,8 +1,8 @@
-﻿生成启动时间为 2016/10/16 10:58:36。
+﻿生成启动时间为 2016/10/16 14:45:20。
      1>项目“D:\VSProject\CDemo\CDemo\CDemo.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
-         D:\vs2015_install\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt C.c
-         C.c
+         D:\vs2015_install\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt demo.c
+         demo.c
        Link:
          D:\vs2015_install\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VSProject\CDemo\x64\Debug\CDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\VSProject\CDemo\x64\Debug\CDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VSProject\CDemo\x64\Debug\CDemo.lib" /MACHINE:X64 x64\Debug\C.obj
          x64\Debug\demo.obj
@@ -11,4 +11,4 @@
 
 已成功生成。
 
-已用时间 00:00:00.30
+已用时间 00:00:00.35

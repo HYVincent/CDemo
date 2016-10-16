@@ -1,4 +1,4 @@
-###C语言练习Demo
+###C语言练习Demo date:2016年10月16日23:55:43
 * 主要是一些联系，printf，scan_f 
 * 注意：在window系统，获取键盘输入要用scan_f("%f",&xx)  %f接受的数值为浮点数
 * 无符号整数类型：unsigned char 1字节
